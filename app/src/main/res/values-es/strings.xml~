@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FAI Agenda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="button_contact">Contacts</string>
+    <string name="name_contact">Contact Name</string>
+    <string name="telephone_number">Telephone Number</string>
+    <string name="button_calendar">Calendar</string>
+    <string name="calendar_text">Birth of day: </string>
+    <string name="names">Name: </string>
+    <string name="delete">Delete </string>
+    <string name="modify">Modify </string>
+    <string name="telephones">Telephone: </string>
+    <string name="birthday">Birthdays: </string>
+    <string name="copyright">©Rodrigo Chavez - Matias Oyarzun </string>
+</resources>

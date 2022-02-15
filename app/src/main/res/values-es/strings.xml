@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FAI Agenda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="button_contact">Contactos</string>
+    <string name="name_contact">Nombre Contacto</string>
+    <string name="telephone_number">Numero Telefono</string>
+    <string name="button_calendar">Calendario</string>
+    <string name="calendar_text">Cumpleaños el dia: </string>
+    <string name="names">Nombre: </string>
+    <string name="delete">Borrar </string>
+    <string name="modify">Modificar </string>
+    <string name="telephones">Telefono: </string>
+    <string name="birthday">Cumpleaño: </string>
+    <string name="birth">Nacimiento: dd/mm/aaaa</string>
+    <string name="contact_profile">Perfil de Contacto</string>
+    <string name="copyright">© Rodrigo Chavez - Matias Oyarzun </string>
+    <string name="new_contact">Nuevo Contacto</string>
+    <string name="toast_birth">No hay cumpleaños en </string>
+    <string name="toast_add_contact">Contacto cargado con exito</string>
+    <string name="toast_fields">El nombre y telefono son obligatorios</string>
+    <string name="toast_call">No tiene permisos para llamar</string>
+    <string name="toast_delete">¿Realmente desea eliminarlo?</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_confirm">Confirmar</string>
+    <string name="toast_delete_confirmed">Eliminado Correctamente</string>
+    <string name="existing_contact">Contacto Existente</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <DigitalClock
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="@color/colorTransparentTextView"
+        android:textAlignment="center"
+        android:textColor="@color/icons"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/button_contacts"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="108dp"
+        android:layout_height="93dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:drawableTop="@drawable/ic_contact"
+        android:drawablePadding="2dip"
+        android:drawableTint="@color/icons"
+        android:foregroundTint="@color/divider"
+        android:onClick="openContacts"
+        android:text="@string/button_contact"
+        android:textColor="@color/icons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_calendar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="110dp"
+        android:layout_height="93dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:drawableTop="@drawable/ic_calendar"
+        android:drawablePadding="2dip"
+        android:drawableTint="@color/icons"
+        android:foregroundTint="@color/divider"
+        android:onClick="openCalendar"
+        android:text="@string/button_calendar"
+        android:textColor="@color/icons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_contacts" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
